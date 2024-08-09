@@ -42,6 +42,6 @@ jobs:
             fi
           done
       - name: "Execute Gradle assemble"
-        run: "./gradlew --no-daemon assemble"
+        run: "./gradlew --no-daemon assembleDebug"
       - name: "Execute Gradle check"
         run: "./gradlew --no-daemon check"
